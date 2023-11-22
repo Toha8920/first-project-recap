@@ -21,6 +21,8 @@ app.use(cors());
 )
 
 eslint ar prettier download korar jonno step gula nite hobe
+---------eslint----------
 ei command ta dite hobe (npm install --save-dev typescript) ts config.json er set up kore ei command dite hobe (npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev)
 erpor eta dite hobe (npx eslint --init) erpor prosno gular ans dite hobe ekta prosno hobe emon ? What format do you want your config file to be in? er ans hobe json. rules add korar por root er modde .eslintignore ei file banate hobe. package .json er modde eta dite hobe
-"lint": "eslint src --ignore-path .eslintignore --ext .ts",
+"lint": "eslint src --ignore-path .eslintignore --ext .ts", eslint er error thik korar jonno ei command ti dite hobe
+"lint:fix": "npx eslint src --fix",
